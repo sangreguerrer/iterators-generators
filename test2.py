@@ -6,11 +6,6 @@ def flat_generator(list_of_lists):
         for new_sub in sub:
             yield new_sub
 
-list_of_lists_1 = [
-        ['a', 'b', 'c'],
-        ['d', 'e', 'f', 'h', False],
-        [1, 2, None]
-    ]
 
 def test_2():
     list_of_lists_1 = [
